@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Omar Telo - Ortopedia Humana</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        html, body {
+            margin: 0;
+            font-family: Arial;
+    }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+    }
+
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+            background-color: aquamarine;
+    }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+    }
+        .menu {
+            width: 15%;
+            background-color: aqua;
+            padding: 10px 20px 0px;
+    }
+        .header {
+            background-color: rgb(5, 108, 108);
+        min-height: 150px;
+    }
+        .content {
+            background-color: white;
+            min-height: 300px;
+            padding: 20px;
+    }
+        .footer {
+            background-color: rgb(99, 56, 240);
+            min-height: 150px;
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="sobreaclinica.html" >Sobre a Clínica Omar Telo</a></li>
+                <li><a href="horarios.html">Tabela de horários</a></li>
+                <li><a href="faleconosco.html">Fale conosco</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div align="center" class="header"><img src="data:image/jpeg;base64,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" alt="ortoclinica"/>
+                <h1><font face="Guanabara Sans, Arial"><strong><i><u>CLÍNICA OMAR TELO</u></i></strong></h1></h>
+                <h2><b>SEUS OSSOS COMO OS NOSSOS</b></h2>
+            </div>
+    
+            <div class="content">
+                <h2 align="center">Fale Conosco</h2>
+                <form>
+                    <label>Nome</label><input type="text" name="name"><br>
+                    <label>Email</label><input type="email" name="email"><br>
+                    <label>Assunto</label><input type="text" name="subject"><br>
+                    <label>Mensagem</label><textarea name="message" rows="5" cols="25"></textarea><br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar formulário</button>    
+                </form><br>
+            <h3>Clínica Omar Telo</h3>
+            <p>Avenida das Américas, 4666 - Rio de Janeiro, RJ</p>
+            <p>Centro Médico BarraShopping</p>
+            <p>Sala 325/326/327/328</p>
+            <p>Telefone e Whatsapp: (21) 999-945-788</p>
+            <p>E-mail: contato@clinicaomartelo.com.br</p><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.708863632007!2d-43.361660825287466!3d-22.99773094112654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda47c287004f%3A0xea4948288ce5a99c!2sCentro%20M%C3%A9dico%20Barra%20Shopping!5e0!3m2!1spt-BR!2sca!4v1690305864181!5m2!1spt-BR!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+    
+            <div class="footer">
+                <small>Clínica Omar Telo</small><br>
+                    <small>Avenida das Américas 4.666</small><br> 
+                    <small>Centro Médico BarraShopping</small><br> 
+                    <small>Sala 325/326/327/328</small><br>
+                    <small>(21) 999-945-788</small><br>
+                    <small>contato@clinicaomartelo.com.br</small><br>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
